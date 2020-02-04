@@ -1,0 +1,39 @@
+{
+  "name": "weed-client-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript client SDK for weed game systm",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clean": "rm -fr ./lib",
+    "build": "npm run clean && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BrocasArea/weed-client-sdk-js.git"
+  },
+  "keywords": [
+    "game",
+    "client",
+    "sdk"
+  ],
+  "author": "Fred Chien <cfsghost@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "terser-webpack-plugin": "^2.1.2",
+    "uuid": "^3.3.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.10",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "@types/event-emitter": "^0.3.3"
+  }
+}
