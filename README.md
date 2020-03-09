@@ -7,6 +7,8 @@ Client SDK depends on `Weed-ClientAgent`. It must make sure you have started it 
 
 ## Usage
 
+Get sdk doc run `yarn gen:doc`, and open `docs/index.html`
+
 Here is simple example to use `weed-client-sdk`:
 
 ```javascript
